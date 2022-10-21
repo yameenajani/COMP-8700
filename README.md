@@ -1,8 +1,7 @@
 # COMP 8700 - Introduction to Artificial Intelligence
 ### This repository contains the coursework for COMP 8700. The details about the folder structure and how to run the code are mentioned below
 
-1. *Assignment 2*
-<br>
+1. *Assignment 2* <br>
 This contains the code for the problems in assignment 2. To run the code, set up a python virtual environment using the following commands (make sure you have `virtualenv` or any other virtual environment library setup on your system) - <br>
 `virtualenv venv` (create virtual env) <br>
 `source venv/bin/activate` (activate the virtual env - **NOTE**: This command to activate the virtual env is for macOS/Linux systems. For Windows try `.\venv\Scripts\activate`)
