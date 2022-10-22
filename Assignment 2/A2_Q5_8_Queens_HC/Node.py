@@ -13,7 +13,6 @@ class Node:
 
     @staticmethod
     def state_cost(state):
-        # Return the number of queens being attacked.
         cost = 0
         for index, queen in enumerate(state):
             cost += (np.count_nonzero(state == queen) - 1)

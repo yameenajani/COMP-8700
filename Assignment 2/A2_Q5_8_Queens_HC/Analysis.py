@@ -40,7 +40,7 @@ if __name__ == "__main__":
         if(end_cost == 0): num_moves[ALGOS[0]].append(moves)
         else: fail_moves[ALGOS[0]].append(moves)
         # Steepest Ascent with 100 sidesteps
-        end_state, end_cost, is_plateau, moves = hill.first_choice(100)
+        end_state, end_cost, is_plateau, moves = hill.steepest_ascent(100)
         if(end_cost == 0): num_moves[ALGOS[1]].append(moves)
         else: fail_moves[ALGOS[1]].append(moves)
 
